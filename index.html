@@ -76,9 +76,22 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>Clean Blog</h1>
+                        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                        <style>
+                        * {max-width: 100vw; max-height: 100vh; }
+                        </style>
+                        <h3 style="color:#fff;font-size: 60px">discover <span id="typed" style="color: #fff"></span> </h3>
+                        <script>
+                     var typed = new Typed('#typed', {
+                         strings: ["gadgets", "tools", "fidgets"],
+                         typeSpeed: 50,
+                         backSpeed: 50,
+                         backDelay: 2000,
+                         loop: true 
+                     });
+                     </script>
                         <hr class="small">
-                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                        <span class="subheading">A place where you find it all</span>
                     </div>
                 </div>
             </div>
